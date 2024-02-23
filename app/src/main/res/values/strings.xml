@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">TestApplication</string>
     <string name="my_name">Памужак Петр Д.</string>
+    <string name="empty_text">Empty</string>
 </resources>

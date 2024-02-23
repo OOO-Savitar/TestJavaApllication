@@ -8,15 +8,36 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/clickerTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/my_name"
+        android:text="@string/empty_text"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <Button
+        android:id="@+id/buttonIncrementCounter"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Увеличить"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/clickerTextView" />
+
+    <Button
+        android:id="@+id/buttonClearCounter"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:text="Сбросить"
+        app:icon="@android:drawable/ic_delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonIncrementCounter" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
