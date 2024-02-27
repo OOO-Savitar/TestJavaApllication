@@ -2,4 +2,5 @@
     <string name="app_name">TestApplication</string>
     <string name="my_name">Памужак Петр Д.</string>
     <string name="empty_text">Empty</string>
+    <string name="anonimous_text">Привет, Anonimus</string>
 </resources>
